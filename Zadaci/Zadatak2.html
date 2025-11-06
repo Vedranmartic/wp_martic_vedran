@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Drugi Zadatak o tablicama i formama">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Vedran Martic">
+    <title>Zadatak 2</title>
+</head>
+<body>
+    <h1>It's Always Sunny in Philadelphia</h1>
+        <p>It's Always Sunny in Philadelphia, kolokvijalno poznato kao "Always Sunny" je američki sitkom koji je kreirao američki glumac
+        <br>Rob McElhenney i ko-kreirao Glenn Howerton za FX mrežu. Serija je imala premijeru 4. kolovoza 2005. te još uvijek izlaze nove. 
+        <br>Glavni likovi serije su Mac (<em>Rob McElhenney</em>), Dennis Reynolds (<em>Glenn Howerton</em>), Charlie Kelly (<em>Charlie Day</em>), 
+        <br>Dee Reynolds (<em>Kaitlin Olson</em>) te im se u drugoj sezoni pridružuje Frank Reynolds (<em>Danny DeVito</em>).
+        </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Rob_McElhenney%2C_Glenn_Howerton%2C_Charlie_Day%2C_Kaitlin_Olson_%26_Danny_DeVito_%289365854954%29.jpg/960px-Rob_McElhenney%2C_Glenn_Howerton%2C_Charlie_Day%2C_Kaitlin_Olson_%26_Danny_DeVito_%289365854954%29.jpg" alt="Glumci" width="750">
+        <p><em>Na slici su prikazani glavni glumci, prikazani s lijeva na desno prema gore navedenom tekstu</em></p>
+        <p>Ovaj zvuk i video vrlo dobro opisuju seriju</p>
+        <audio controls autoplay muted>
+        <source src="../Audio_Video/test-audio.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+        </audio>
+        <br>
+        <video width="500" height="400" controls poster="https://i.pinimg.com/474x/02/65/e4/0265e463e47f9737f20135d9aeb584ed.jpg">
+        <source src="../Audio_Video/puppy.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+    <h2>Epizode</h2>
+        <p>Always Sunny ima 17 sezona te se može pohvaliti time što je sitkom koji najduže traje te se još uvijek proizvodi, preko 20 godina.</p>
+        <table border="1">
+            <tr>
+            <th colspan="4">Lista sezona i epizoda</th>
+            </tr>
+            <tr>
+            <th rowspan="2">Sezona</th>
+            <th rowspan="2">Broj epizoda</th>
+            <th colspan="2">Premijera</th>
+           </tr>
+           <tr>
+            <th>Datum</th>
+            <th>Mreža</th>
+           </tr>
+           <tr>
+            <td>1</td>
+            <td>7</td>
+            <td>4.8.2005.</td>
+            <td rowspan="8">FX</td>
+           </tr>
+           <tr>
+            <td>2</td>
+            <td>10</td>
+            <td>29.6.2006.</td>
+           </tr>
+           <tr>
+            <td>3</td>
+            <td>15</td>
+            <td>13.9.2007.</td>
+           </tr>
+           <tr>
+            <td>4</td>
+            <td>13</td>
+            <td>18.9.2008.</td>
+           </tr>
+           <tr>
+            <td>5</td>
+            <td>12</td>
+            <td>17.9.2009.</td>
+           </tr>
+            <tr>
+            <td>6</td>
+            <td>14</td>
+            <td>16.9.2010.</td>
+           </tr>
+            <tr>
+            <td>7</td>
+            <td>13</td>
+            <td>15.9.2011.</td>
+           </tr>
+            <tr>
+            <td>8</td>
+            <td>10</td>
+            <td>11.10.2012.</td>
+           </tr>
+            <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>4.9.2013.</td>
+            <td rowspan="8">FXX</td>
+           </tr>
+            <tr>
+            <td>10</td>
+            <td>10</td>
+            <td>14.1.2015.</td>
+           </tr>
+           <tr>
+            <td>11</td>
+            <td>10</td>
+            <td>6.1.2016.</td>
+           </tr>
+           <tr>
+            <td>12</td>
+            <td>10</td>
+            <td>4.1.2017.</td>
+           </tr>
+           <tr>
+            <td>13</td>
+            <td>10</td>
+            <td>5.9.2018.</td>
+           </tr>
+           <tr>
+            <td>14</td>
+            <td>10</td>
+            <td>25.9.2019.</td>
+           </tr>
+           <tr>
+            <td>15</td>
+            <td>8</td>
+            <td>1.10.2021.</td>
+           </tr>
+           <tr>
+            <td>16</td>
+            <td>8</td>
+            <td>7.6.2023.</td>
+           </tr>
+           <tr>
+            <td>17</td>
+            <td>8</td>
+            <td>9.7.2025.</td>
+            <td>FXX/FX</td>
+           </tr>
+        </table>
+    <h2>Saznaj više</h2>
+    <p>Ako želite saznati više o seriji, prijavite se na našu stranicu</p>
+    <form action="#" method="get">
+        <label for="ime">Unesi ime</label>
+        <input type="text" id="ime" placeholder="Unesi ime...">
+        <br>
+        <br>
+        <label for="prezime">Unesi prezime</label>
+        <input type="text" id="prezime" placeholder="Unesi prezime...">
+        <br>
+        <br>
+        <label for="pass">Unesi lozinku</label>
+        <input type="password" name="pass" id="pass" required>
+        <br>
+        <br>
+        <p>Odabir uloge:</p>
+        <input type="radio" name="uloga" id="Admin">
+        <label for="Admin">Admin</label><br>
+        <input type="radio" name="uloga" id="Guest">
+        <label for="Guest">Guest</label><br>
+        <br>
+        <p>Prihvaćam uvjete korištenja:</p>
+        <input type="checkbox" name="prihvati" id="prihvati">
+        <label for="prihvati">Prihvaćam</label><br>
+        <br>
+        <input type="submit" value="Pošalji">
+        <input type="reset" value="Poništi">
+    </form>
+</body>
+</html>
