@@ -5,3 +5,11 @@ h2 {
 body {
     background-color: aqua;
     }
+
+#prvi {
+color: blue;
+}
+/* za id ide #naziv, za klasu ide .klasa */
+.drugi {
+color: chocolate;
+}
