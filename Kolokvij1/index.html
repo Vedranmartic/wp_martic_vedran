@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kolokvij1">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Vedran Martic">
+    <title>Moja Web Stranica</title>
+</head>
+<body>
+    <h1>Dobrodošli na moju web stranicu</h1>
+    <p>Ovo je prvi paragraf na mojoj web stranici.</p>
+    <p><strong>Ovo je moj</strong> <em>drugi paragraf</em></p>
+    <br>
+    <h4>Brojevi od jedan do četiri</h4>
+    <ul>
+        <li>Jedan</li>
+        <li>Dva</li>
+        <li>Tri</li>
+        <li>Četiri</li>
+    </ul>
+    <h4>Moji najdraži brojevi od jedan do četiri od najdražeg do najmanje dragog</h4>
+    <ol type="1">
+        <li>Četiri</li>
+        <li>Jedan</li>
+        <li>Dva</li>
+        <li>Tri</li>
+    </ol>
+    <br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSkVK1-BkGXdBXelMSJaddX-aqejJe8OBa6Q&s" alt="Pepsi logo" height="200">
+    <br>
+    <br>
+    <a href="https://www.unisb.hr/" target="_blank">Kliknite ovdje</a>
+    <br>
+    <br>
+    <a href="https://validator.w3.org/#validate_by_input" target="_blank">Link za validator</a>
+    <br>
+    <br>
+    <table border="1">
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+        <tr>
+            <th rowspan="6">Hours</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <td colspan="2">Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Art</td>
+        </tr>
+        <tr>
+            <th colspan="5">LUNCH</th>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td colspan="2">Science</td>
+            <td rowspan="2">Project</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+        </tr>
+        </table>
+    <h3>Forme u HTML-u</h3>
+    <form action="#" method="post">
+        <label for="ime">Unesi ime</label>
+        <input type="text" id="ime" placeholder="Unesi ime...">
+        <br>
+        <br>
+        <label for="pass">Unesi lozinku</label>
+        <input type="password" name="pass" id="pass" required>
+        <br>
+        <br>
+        <label for="email">Unesi email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <p>Radio tipke:</p>
+        <input type="radio" name="role" id="Admin">
+        <label for="Admin">Admin</label><br>
+        <input type="radio" name="role" id="Guest">
+        <label for="Guest">Guest</label><br>
+        <input type="radio" name="role" id="Other">
+        <label for="Other">Other</label><br>
+        <br>
+        <input type="submit" value="Pošalji">
+        <input type="reset" value="Poništi">
+    </form>
+    <br>
+    <audio controls muted>
+      <source src="./horse.ogv" type="audio/ogg">
+      Your browser does not support the audio element.
+    </audio>
+    <br>
+    <br>
+    <video width="320" height="240" controls poster="./SlikaSveučilišta.png">
+    <source src="./movie.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+</body>
+</html>
