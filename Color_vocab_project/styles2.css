@@ -2,13 +2,16 @@
     color: red;
 }
 #blue {
-    color: blue;
+/*     color: blue; */    
+color: #38b8df;
 }
 #orange {
-    color: orange;
+/*     color: orange; */
+color: rgb(255, 136, 0);
 }
 #green {
-    color: green;
+ /*    color: green; */
+ color: hsl(100, 40%, 25%);
 }
 #yellow {
     color: yellow;
