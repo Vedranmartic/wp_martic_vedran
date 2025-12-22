@@ -20,3 +20,12 @@ let visina = prompt("Unesi visinu u m: ");
 let bmi = Math.round(masa/(visina*visina));
 
 alert("Vaš BMI iznosi; " + bmi);
+
+/* Skripta treba kada se stranica učita 
+ponuditi preko prompta unos (npr. Unesite 
+jedan broj: ). Kada se unese broj, skripta 
+preko alerta ispiše dva puta veći broj od 
+unešenog (npr. Unesete broj 4, preko 
+alerta se ispiše 8).
+Ispis treba biti u formatu: Unio si 
+broj 4, a dva puta veći broj je 8 (7) */
