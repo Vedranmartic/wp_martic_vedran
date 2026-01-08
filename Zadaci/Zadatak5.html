@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="display">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Vedran Martic">
+    <title>Zadatak 5</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .naslov {
+            text-align: center;
+            font-size: 20px;
+            background-color: crimson;
+            padding: 30px;
+            margin: 30px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgoldenrod;
+        }
+        .prvi {
+            padding: 20px;
+            margin: 20px;
+            border-width:5px;
+            border-style: solid;
+            border-color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: cadetblue;
+        }
+        .drugi {
+            padding: 50px;
+            margin: 40px;
+            border-width: 3px;
+            border-style: dashed;
+            border-color: aqua;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: darkcyan;
+        }
+        .treci {
+            grid-column: span 2;
+            padding: 100px;
+            margin: 70px;
+            border-width: 20px;
+            border-style: groove;
+            border-color: darkmagenta;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: darkorchid;
+        }
+        @media (min-width: 319px) and (max-width: 480px) {
+            body {
+                background-color: burlywood;
+                    }
+                    }
+
+         @media (min-width: 481px) {
+             body {
+                background-color: powderblue;
+                    }
+                    }
+
+    </style>
+</head>
+<body>
+    <div class="naslov"><h1> 3 slatka recepta</h1></div>
+    <div class="container">
+        <div class="prvi">
+            <h2>Cake pops</h2>
+            <img src="../Slike/Cake pops.png" alt="cake pops" width="250">
+            <h3>Sastojci</h3>
+            <p>Za oko 20 cake pops</p>
+            <p>Za kuglice</p>
+            <ul>
+                <li>250g mljevenog biskvita (ostaci suhog biskvita)</li>
+                <li>1-2 žlice marmelade od marelice</li>
+                <li>1-2 žlica soka od limuna</li>
+                <li>1-2 žlice soka od naranče (koliko treba da smjesa bude kompaktna)</li>
+            </ul>
+            <p>Za oblage i dekoraciju</p>
+            <ul>
+                <li>200g bijele čokolade</li>
+                <li>1-2 žlice ulja (suncokretovo ili kokosovo)</li>
+                <li>perlice u boji ili drugi šećerni ukrasi</li>
+                <li>štapići za lizalice</li>
+            </ul>
+            <h3>Priprema</h3>
+            <ol>
+                <li>Biskvit usitnite u multipraktiku dok ne dobijete fine mrvice (za ovu količinu cake popsa dovoljan je biskvit od 2 jaja).
+Dodajte marmeladu od marelice te sok od limuna i naranče. Sve dobro izmiješajte dok ne dobijete smjesu koja se lako oblikuje, ali nije ljepljiva.
+Od smjese pravite kuglice, stavite na tacnu obloženu papirom za pečenje i prekrijte prozirnom folijom. Stavite u hladnjak preko noći ili u zamrzivač na 20-30 minuta dok se potpuno ne stvrdnu.</li>
+                <li>Bijelu čokoladu otopite na pari s malo ulja.
+Svaki štapić za lizalicu prvo umočite u otopljenu čokoladu, zatim ga lagano gurnite do sredine hladne kuglice. Čokolada će zalijepiti kuglicu za štapić. Ohladite u zamrzivaču još 15 minuta kako bi se "ljepilo" stvrdnulo. Važno je da kuglice budu jako hladne prije umakanja u čokoladu.</li>
+                <li>Zatim kuglice umočite u čokoladu, lagano je okrenite kako bi se ravnomjerno obložila i pustite da višak čokolade iscuri.
+Dok je čokolada još mekana, pospite perlicama u boji ili drugim ukrasima po želji.</li>
+                <li>
+Stavite na papir za pečenje da se suše okomito tako da kuglice budu na papiru ili zabodite štapiće u nešto čvrsto, poput stiropora, tako da kuglice budu u zraku.
+Ostavite da se čokolada potpuno stvrdne, zatim čuvajte u hladnjaku.</li>
+            </ol>
+        </div>
+        <div class="drugi">
+           <h2>Mileramka</h2>
+           <img src="../Slike/Mileramka.png" alt="mileramka" width="250">
+           <h3>Sastojci</h3>
+           <p>Kora</p>
+           <ul>
+            <li>250 g glatkog brašna</li>
+            <li>100 g šećera</li>
+            <li>1 jaje</li>
+            <li>1 prašak za pecivo</li>
+            <li>1 vanilin šećer</li>
+            <li>80 g margarina ili maslaca</li>
+            <li>malo vrhnja za kuhanje</li>
+           </ul>
+           <p>Fil</p>
+           <ul>
+            <li>250 ml mlijeka</li>
+            <li>2 pudinga od vanilije</li>
+            <li>200 g šećera</li>
+            <li>800 g milerama</li>
+           </ul>
+           <p>Preljev</p>
+           <p>400 g voća</p>
+           <h3>Priprema</h3>
+           <ol>
+            <li>U posudu stavimo brašno, šećer, prašak za pecivo, vanilin šećer, omekšan margarin/maslac, jaje i vrhnje za kuhanje
+
+Smjesu izmiješamo i izjenadnačimo pa je razvaljamo na podlozi i stavljamo u kalup. Kalup je najbolje premazati kako se kora ne bi slijepila uz zidove. Smjesu u kalup stavljamo tako da pokrije dno, zidove i vrh zidova kalupa.</li>
+            <li>Što se tiče fila, pripremimo puding iz kesice sa malo šećera i mlijeka.
+
+Mlijeko stavljamo da kuha a kada prokuha dodajemo u njega puding. Kada se smjesa zgusne, skidamo sa vatre i dodajemo mileram. Sve to izmiješamo i sipamo preko kore u kalup. Preko fila redamo voće i stavljamo na pečenje. Peče se otprilike 70-80 minuta na 160.
+
+</li>
+            <li>Kada se ispeče i ohladi, napravimo preljev iz kesice i prelijemo preko torte. Ostavimo na hlađenje.</li>
+           </ol>
+           <p>Savjet</p>
+           <p>Kada ga budete vadili iz kalupa prvo nozem prodjite sa svih strana izmedju kalupa i kore.</p>
+        </div>
+        <div class="treci">
+            <h2>Kolač od maline, banane i mascarponea</h2>
+            <p>Poteban alat: blender, mikser, štednjak, pećnica, pjenjača. ovaj recept se isplati raditi paralelno uz nešto jer ima dosta praznog hoda.</p>
+            <img src="../Slike/Kolač od maline, banane i mascarponea.png" alt="kolac od maline" width="250">
+            <h3>Sastojci</h3>
+            <p>Za 6 osoba</p>
+            <p>Banana biskvit</p>
+            <ul>
+                <li>120 g omekšalog maslaca</li>
+                <li>1 šalica šećera</li>
+                <li>1 paketić vanilin šećera</li>
+                <li>2 žlice ruma</li>
+                <li>1/2 cimeta</li>
+                <li>1/4 čajne naribanog muškatnog orašćića</li>
+                <li>1/2 kiselog vrhnja</li>
+                <li>3 prezrele banane</li>
+                <li>1 šalica glatkog brašna</li>
+                <li>1 šalica mljevenih bijelih badema</li>
+                <li>1 čajna sode bikarbone</li>
+                <li>malo soli</li>
+            </ul>
+            <p>Voćna "krema"</p>
+            <ul>
+                <li>600 g smrznutih malina</li>
+                <li>20 g želina</li>
+                <li>nekoliko žlica šećera po ukusu</li>
+            </ul>
+            <p>Mascarpone krema</p>
+            <ul>
+                <li>4 žumanjka</li>
+                <li>100 g šećera u prahu</li>
+                <li>500 g mascarpone sira</li>
+                <li>250 ml vrhnja za šlag</li>
+            </ul>
+            <h3>Priprema</h3>
+            <p>Banana biskvit 180° 45 minuta</p>
+            <p>Banane i vrhnje sam izblendala, ja sam imala 2 manje zrele (crna kora) i jednu nezrelu bananu. Pomiješala sam sve sastojke (i blendane banane) i miksala do homogenosti. 
+
+Pekla sam u pećnici na 180° otprilike 45 min u 2 manje staklene posude. Provjerila sam čačkalicom. </p>
+            <p>Voćna krema</p>
+            <p>Izblendala sam 600g smrznutih malina i vode (gotovo da ih prekrije u posudi). U lonac sam stavila 20 g pektina, ~2 dcl vode (u manjem loncu jedno 3 cm visine) i 3 žlice šećera. Kad je to zakipilo, dodala sam maline i miješala dok ponovo nije zakipilo. Usput sam dodala još malo šećera toliko da mi je ta smjesa mrvicu preslatka sama po sebi.
+
+Pustila sam da se malo ohladi, višak pjene bacila, i prelila preko rashlađenog biskvita. </p>
+            <p>Mascarpone krema</p>
+            <p>
+U metalnoj zdjeli sam izmiksala 4 žumanjca i 100 g šećera u prahu. Na štednjaku sam složila vodenu kupelj i kuhala smjesu na pari. Miješala sam dok nije promijenilo teksturu i pjenavu ccc 15 min.
+U malo rashlađenu masu dodala sam 500g mascarpone sira i miksala. U drugoj posudi sam izmiksala šlag. Spojila sam te dvije smjese. 
+
+Voće na biskvitu mora biti želirano, kompaktno prije nego što se doda mascarpone krema. </p>
+            <p>Posluživanje</p>
+            <p>Ohladiti preko noći (8 sati)</p>
+
+        </div>
+    </div>
+
+</body>
+</html>

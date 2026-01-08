@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Positioning and display">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Vedran Martic">
+    <title>Zadatak 4</title>
+    <style>
+
+        .card {
+            position: relative;
+            background-color: #87CEEB;
+            padding: 20px;
+            margin: 20px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #333333;
+            border-radius: 6px;
+        }
+        .link1 {
+            position: absolute;
+            bottom: -30px;
+            left: 1650px;
+            padding: 10px;
+            margin: 10px;
+        }
+        .link2 {
+            position: absolute;
+            bottom: -30px;
+            left: 1650px;
+            padding: 10px;
+            margin: 10px;
+        }
+        .link3 {
+            position: absolute;
+            bottom: -30px;
+            left: 1650px;
+            padding: 10px;
+            margin: 10px;
+        }
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            display: inline-block;
+        }
+        p {
+            color: #333333;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+        }
+        .blue2 {
+            background-color: mediumblue;
+            width: 500px;
+            height: 300px;
+            position: relative;
+        }
+        .yellow1 {
+            background-color: yellow;
+            position: absolute;
+            height: 300px;
+            width: 50px;
+            left: 150px;
+        }
+        .yellow2 {
+            background-color: yellow;
+            position: absolute;
+            width: 500px;
+            height: 50px;
+            top: 125px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Informacije o gradu</h2>
+        <p>Naziv grada: Slavonski Brod</p>
+        <p>Država: Hrvatska</p>
+        <p>Populacija: 49891</p>
+        <div class="link1"><p><a href="https://hr.wikipedia.org/wiki/Slavonski_Brod" target="_blank">Dodatne informacije</a></p></div>
+    </div>
+    <div class="card">
+        <h2>Informacije o gradu</h2>
+        <p>Naziv grada: Osijek</p>
+        <p>Država: Hrvatska</p>
+        <p>Populacija: 96313</p>
+        <div class="link2"><p><a href="https://hr.wikipedia.org/wiki/Osijek" target="_blank">Dodatne informacije</a></p></div>
+    </div>
+    <div class="card">
+        <h2>Informacije o gradu</h2>
+        <p>Naziv grada: Split</p>
+        <p>Država: Hrvatska</p>
+        <p>Populacija: 160577</p>
+        <div class="link3"><p><a href="https://hr.wikipedia.org/wiki/Split" target="_blank">Dodatne informacije</a></p></div>
+    </div>
+
+    <h1>Zastava Švedske</h1>
+    <div class="blue2">
+        <div class="yellow1"></div>
+        <div class="yellow2"></div>
+    </div>
+</body>
+</html>
