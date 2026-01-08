@@ -1,0 +1,47 @@
+h1 {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 3rem;
+    }
+h2 {
+    font-family: "Roboto";
+    color: #4CAF50;
+    }
+p {
+    font-family: "Open Sans";
+    }
+body {
+    background-color: #ECEFF1;
+}
+.highlight {
+    font-size: 16px;
+    color: #FFC107;
+}
+.dva {
+    font-size: 18px;
+    color: #546E7A;
+}
+.tri {
+    font-size: 20px;
+    color: #78909C;
+}
+.prvi
+{
+    list-style-type: circle;
+}
+.drugi {
+    list-style-type: disc;
+}
+.treci {
+    list-style-type: square;
+}
+.cetvrti {
+    list-style-type: decimal;
+}
+.peti {
+    list-style-type: lower-roman;
+}
+#main-title {
+    font-size: 4rem;
+    color: #03A9F4;
+}
